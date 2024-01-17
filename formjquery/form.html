@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/form.css" />
+        <script src="js/icon.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/form.js"></script>
+
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Sign up</h2>
+            <form action="#" id="formid">
+                <div class="mainfield">
+                    <label for="fname">First Name:</label>
+                    <input title="Firstname" class="firstname" type="text" id="fname" name="fname"
+                        placeholder="First name" onblur="validateForm()">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="lname">Last Name:</label>
+                    <input title="Lastname" class="lastname" type="text" id="lname" name="lname" placeholder="Last name"
+                        onblur="validateForm()">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small class="error"></small>
+
+
+                </div>
+                <div class="mainfield">
+                    <label for="mail">Mail id:</label>
+                    <input title="Email" class="email" type="email" id="mail" name="email"
+                        placeholder="example@gmail.com" onblur="validateForm()">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="pass">Password:</label>
+                    <input title="Password" class="passs" type="password" id="pass" name="password"
+                        placeholder="Password" onblur="validateForm()">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="tele">Mobile:</label>
+                    <input title="Mobile" class="teleee" type="tel" id="tele" name="number" placeholder="Mobile"
+                        onblur="validateForm()">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="country">Country:</label>
+                    <select id="country" name="country" onblur="validateForm()">
+                        <option selected>Select Country</option>
+                        <option value="India">India</option>
+                        <option value="Srilanka">Srilanka</option>
+                        <option value="China">China</option>
+                        <option value="Pakisthan">Pakisthan</option>
+                    </select>
+                    <i class="fa-solid fa-circle-check"></i>
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="m" class="gen">Gender:</label>
+                    <input type="radio" id="m" name="male" onblur="validateForm()">
+                    <label for="m">Male</label>
+                    <input type="radio" id="f" name="male" onblur="validateForm()">
+                    <label class="lab" for="f">Female</label>
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="date">DOB:</label>
+                    <input type="date" id="date" min="2000-01-01" max="2010-10-12" onblur="validateForm()">
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="address" class="addr">Address:</label><br>
+                    <textarea id="address" onblur="validateForm()">
+                </textarea>
+                    <small class="error"></small>
+                </div>
+                <div class="mainfield">
+                    <label for="file"></label><br>
+                    <input type="file" id="file" name="file" onblur="validateForm()">
+                    <small class="error"></small>
+                </div>
+                <button type="submit" id="submit" value="submit">Register</button>
+            </form>
+
+        </div>
+    </body>
+
+</html>

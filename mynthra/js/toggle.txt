@@ -1,0 +1,21 @@
+  <div class="offcanvas d-lg-none d-block offcanvas-start offcanvasMenu" id="demo">
+                    <div class="offcanvas-header">
+                      <div class="offcanvas-title">
+                        <img src="assets/logo.png" class="ps-4" alt="logo-image">
+                      </div>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                       <div class="container">
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>MEN</b></a>
+                        <a class="nav-link color-black  active" aria-current="page" href="#"><b>WOMEN</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>KIDS</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>HOME&LIVING</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>BEAUTY</b></a>
+                        <a class="nav-link color-black active" aria-current="page" href="#"><b>STUDIO</b></a>
+                       </div>
+                    </div>
+                  </div>
+                <button  class="navbar-toggler float-start" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>

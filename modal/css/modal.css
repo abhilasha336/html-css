@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+.buttoncontainer {
+    width: 20%;
+    margin: 100px auto;
+}
+
+.button {
+    padding: 21px 78px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+
+}
+
+.button1 {
+    padding: 10px 22px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 5px;
+    margin-left: 33px;
+    cursor: pointer;
+
+}
+
+.modelcontainer {
+
+    z-index: 1;
+    display: none;
+    padding: 29px 194px;
+    width: 45%;
+    margin: -38px auto;
+    background-color: white;
+    color: black;
+    border: 1px solid transparent;
+    box-shadow: 0px 0px 3px grey;
+}
+
+.dispb {
+    display: block;
+}
+
+.dispn {
+    display: none;
+}
+
+.dispc {
+    background-color: grey;
+}
+
+.dispn {
+    background-color: "";
+}
+
+span.close {
+    font-size: 34px;
+    position: absolute;
+    top: 72px;
+    left: 886px;
+    cursor: pointer;
+}
